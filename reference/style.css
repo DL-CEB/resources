@@ -1,0 +1,12 @@
+.uk-search-icon-flip svg{
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.visible{
+    display: block !important;
+}
+
+.uk-animation-shake{
+    animation-name: uk-shake !important;
+}
