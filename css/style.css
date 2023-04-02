@@ -138,6 +138,12 @@ body {
     height: auto;
 }
 
+.footer{
+    font-size: 12px;
+    color: #52565e;
+    margin: 3rem 0;
+    text-align: center;
+}
 
 @media screen and (max-width:600px) {
 
