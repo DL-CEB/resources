@@ -7,6 +7,7 @@
 
 body {
     margin: 0;
+        background-color: #034ea2;
     padding: 0;
 }
 
@@ -52,7 +53,7 @@ body {
 
 .filters>ul {
     display: flex;
-    /* justify-content: space; */
+    /* justify-content: center; */
     list-style: none;
     gap: .5rem;
     padding: 0 1rem;
@@ -136,4 +137,30 @@ body {
     width: 250px;
     float: right;
     height: auto;
+}
+
+
+@media screen and (max-width:600px) {
+
+
+    .filters>ul {
+        justify-content: center;
+    }
+    .card {
+        max-width: 40%;
+        min-width: 150px;
+    }
+    .image {
+        width: 100%;
+        min-height: 150px;
+    
+    }
+    
+    .image>img {
+        max-width: fit-content;
+        width: 100%;
+    }
+    .download>img {
+        width: 20px;
+    }
 }
