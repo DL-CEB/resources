@@ -57,6 +57,12 @@ const data = [
     keywords: "",
   },
   {
+    name: "Janssen Neuroscience",
+    image: "Logo_Janssen Neuroscience.png",
+    cat: "logo",
+    keywords: "Neuroscience",
+  },
+  {
     name: "Pharmacyclics",
     image: "Logo_Pharmacyclics.png",
     cat: "logo",
@@ -187,6 +193,7 @@ const data = [
   },
 ];
 
+console.log(data);
 for (var i = 0; i < data.length; i++) {
   persons.push({
     name: data[i].name,
