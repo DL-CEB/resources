@@ -5,6 +5,7 @@ $(document).ready(function () {
   });
 });
 const imagePath = "./images/";
+const filePath = "./files/";
 var persons = [];
 
 const data = [
@@ -191,12 +192,20 @@ const data = [
     cat: "icon",
     keywords: "",
   },
+  // {
+  //   name: "Video link",
+  //   image: "Banner.png",
+  //   file:'file1.zip',
+  //   cat: "section",
+  //   keywords: "",
+  // },
 ];
 
 for (var i = 0; i < data.length; i++) {
   persons.push({
     name: data[i].name,
     image: imagePath+data[i].cat+'/' + data[i].image,
+    file: data[i].cat == 'section'?filePath+data[i].file:'',
     cat: data[i].cat,
     keywords: data[i].keywords,
   });
